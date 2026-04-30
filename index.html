@@ -3,136 +3,62 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Selected Works</title>
+  <title>Luke Magette</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav class="nav">
-    <span class="nav-logo">SW</span>
-    <ul class="nav-links">
-      <li><a href="#work">Work</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <main class="page">
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="hero-content">
-      <p class="hero-eyebrow">Portfolio — 2026</p>
-      <h1 class="hero-title">Selected<br /><em>Works</em></h1>
-      <p class="hero-sub">Design &amp; creative direction across brand, digital, and editorial.</p>
-      <a href="#work" class="btn">View Projects</a>
-    </div>
-    <div class="hero-scroll-hint">
-      <span>Scroll</span>
-      <div class="scroll-line"></div>
-    </div>
-  </section>
-
-  <!-- CAROUSEL SECTION -->
-  <section class="carousel-section" id="work">
-    <div class="section-label">Featured Projects</div>
-    <h2 class="section-title">Recent<br /><em>Highlights</em></h2>
+    <h1 class="name">Luke Magette</h1>
 
     <div class="carousel-wrapper">
       <div class="carousel" id="carousel">
 
         <div class="slide active">
           <div class="slide-img-wrap">
-            <img
-              src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1400&q=80"
-              alt="Abstract gradient composition"
-            />
+            <img src="photos/photo1.jpg" alt="Photo 1" />
           </div>
-          <div class="slide-meta">
-            <span class="slide-index">01 / 05</span>
-            <div class="slide-info">
-              <h3 class="slide-title">Gradient Study No. 7</h3>
-              <p class="slide-caption">An exploration of colour transitions in generative design — blending analogue sensibility with digital precision.</p>
-            </div>
-            <span class="slide-tag">Generative Art</span>
-          </div>
+          <p class="slide-caption">Caption for photo one</p>
         </div>
 
         <div class="slide">
           <div class="slide-img-wrap">
-            <img
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=80"
-              alt="Minimalist product photography"
-            />
+            <img src="photos/photo2.jpg" alt="Photo 2" />
           </div>
-          <div class="slide-meta">
-            <span class="slide-index">02 / 05</span>
-            <div class="slide-info">
-              <h3 class="slide-title">Object & Shadow</h3>
-              <p class="slide-caption">Product identity photography using natural light and architectural negative space to foreground the object's form.</p>
-            </div>
-            <span class="slide-tag">Photography</span>
-          </div>
+          <p class="slide-caption">Caption for photo two</p>
         </div>
 
         <div class="slide">
           <div class="slide-img-wrap">
-            <img
-              src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=1400&q=80"
-              alt="Web design on laptop screen"
-            />
+            <img src="photos/photo3.jpg" alt="Photo 3" />
           </div>
-          <div class="slide-meta">
-            <span class="slide-index">03 / 05</span>
-            <div class="slide-info">
-              <h3 class="slide-title">Interface Systems</h3>
-              <p class="slide-caption">A component-driven design system built for scale — typography, spacing, and colour tokens unified across platforms.</p>
-            </div>
-            <span class="slide-tag">UI / UX</span>
-          </div>
+          <p class="slide-caption">Caption for photo three</p>
         </div>
 
         <div class="slide">
           <div class="slide-img-wrap">
-            <img
-              src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1400&q=80"
-              alt="Aerial landscape photography"
-            />
+            <img src="photos/photo4.jpg" alt="Photo 4" />
           </div>
-          <div class="slide-meta">
-            <span class="slide-index">04 / 05</span>
-            <div class="slide-info">
-              <h3 class="slide-title">Aerial Topographies</h3>
-              <p class="slide-caption">A series of aerial landscapes documenting land use patterns — abstract from altitude, intimate on the ground.</p>
-            </div>
-            <span class="slide-tag">Editorial</span>
-          </div>
+          <p class="slide-caption">Caption for photo four</p>
         </div>
 
         <div class="slide">
           <div class="slide-img-wrap">
-            <img
-              src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1400&q=80"
-              alt="Brand identity design mockup"
-            />
+            <img src="photos/photo5.jpg" alt="Photo 5" />
           </div>
-          <div class="slide-meta">
-            <span class="slide-index">05 / 05</span>
-            <div class="slide-info">
-              <h3 class="slide-title">Marca Studio Identity</h3>
-              <p class="slide-caption">Complete brand identity for a boutique creative studio — logo, type system, colour palette, and collateral design.</p>
-            </div>
-            <span class="slide-tag">Branding</span>
-          </div>
+          <p class="slide-caption">Caption for photo five</p>
         </div>
 
       </div><!-- /.carousel -->
 
-      <button class="carousel-btn prev" id="prevBtn" aria-label="Previous slide">
+      <button class="carousel-btn prev" id="prevBtn" aria-label="Previous">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
           <path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </button>
-      <button class="carousel-btn next" id="nextBtn" aria-label="Next slide">
+
+      <button class="carousel-btn next" id="nextBtn" aria-label="Next">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
           <path d="M9 18l6-6-6-6" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -141,77 +67,8 @@
       <div class="carousel-dots" id="carouselDots"></div>
 
     </div><!-- /.carousel-wrapper -->
-  </section>
 
-  <!-- MARQUEE STRIP -->
-  <div class="marquee-strip" aria-hidden="true">
-    <div class="marquee-track">
-      <span>Brand Identity</span><span class="dot">·</span>
-      <span>Photography</span><span class="dot">·</span>
-      <span>UI Design</span><span class="dot">·</span>
-      <span>Editorial</span><span class="dot">·</span>
-      <span>Motion</span><span class="dot">·</span>
-      <span>Generative Art</span><span class="dot">·</span>
-      <span>Brand Identity</span><span class="dot">·</span>
-      <span>Photography</span><span class="dot">·</span>
-      <span>UI Design</span><span class="dot">·</span>
-      <span>Editorial</span><span class="dot">·</span>
-      <span>Motion</span><span class="dot">·</span>
-      <span>Generative Art</span><span class="dot">·</span>
-    </div>
-  </div>
-
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="about-grid">
-      <div class="about-left">
-        <div class="section-label">About</div>
-        <h2 class="section-title">Craft &amp;<br /><em>Intention</em></h2>
-      </div>
-      <div class="about-right">
-        <p class="about-body">
-          I'm an independent designer and creative director with over a decade of experience shaping visual identities, digital products, and printed matter. My work sits at the intersection of rigorous conceptual thinking and precise execution.
-        </p>
-        <p class="about-body">
-          Clients range from early-stage startups to established cultural institutions. Every project begins with listening — then research, iteration, and a commitment to work that endures past the moment of delivery.
-        </p>
-        <div class="about-stats">
-          <div class="stat">
-            <span class="stat-num">12+</span>
-            <span class="stat-label">Years experience</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">80+</span>
-            <span class="stat-label">Projects delivered</span>
-          </div>
-          <div class="stat">
-            <span class="stat-num">34</span>
-            <span class="stat-label">Clients worldwide</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="contact-inner">
-      <div class="section-label">Contact</div>
-      <h2 class="contact-title">Let's make<br /><em>something.</em></h2>
-      <a href="mailto:hello@example.com" class="contact-email">hello@example.com</a>
-      <div class="contact-links">
-        <a href="#" class="contact-link">Instagram ↗</a>
-        <a href="#" class="contact-link">LinkedIn ↗</a>
-        <a href="#" class="contact-link">Dribbble ↗</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <span>© 2026 Selected Works</span>
-    <span>Designed &amp; built with care</span>
-  </footer>
+  </main>
 
   <script src="main.js"></script>
 </body>
