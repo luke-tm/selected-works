@@ -153,13 +153,11 @@ img { display: block; max-width: 100%; }
 
 .slide-caption {
   flex-shrink: 0;
-  padding: 12px 24px;
-  font-size: 11px;
-  letter-spacing: 0.03em;
+  padding: 10px 24px;
+  font-size: 10px;
+  letter-spacing: 0.04em;
   color: var(--text-muted);
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   border-top: 1px solid var(--border);
   background: var(--surface);
 }
@@ -232,5 +230,5 @@ img { display: block; max-width: 100%; }
   .page { padding: 28px 20px; gap: 24px; }
   .carousel-btn.prev { left: 6px; }
   .carousel-btn.next { right: 6px; }
-  .slide-caption { padding: 10px 16px; font-size: 10px; }
+  .slide-caption { padding: 10px 16px; font-size: 9px; letter-spacing: 0.02em; }
 }
